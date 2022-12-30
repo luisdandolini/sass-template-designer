@@ -46,4 +46,174 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.container-cars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-sedans {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 260px;
+  height: 500px;
+  background-color: hsl(31deg, 77%, 52%);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-left: 50px;
+  padding: 2rem;
+}
+.container-sedans img {
+  width: 64px;
+  height: 40px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.container-sedans h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  margin-left: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.container-sedans p {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.7rem;
+  width: 228px;
+  margin-left: 1rem;
+  color: white;
+}
+.container-sedans a {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(31deg, 77%, 52%);
+  background-color: white;
+  margin-left: 1rem;
+  margin-top: 7rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.container-suvs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 260px;
+  height: 500px;
+  background-color: hsl(184deg, 100%, 22%);
+  padding: 2rem;
+}
+.container-suvs img {
+  width: 64px;
+  height: 40px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.container-suvs h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  margin-left: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.container-suvs p {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.7rem;
+  width: 228px;
+  margin-left: 1rem;
+  color: white;
+}
+.container-suvs a {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(184deg, 100%, 22%);
+  background-color: white;
+  margin-left: 1rem;
+  margin-top: 7rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.container-luxury {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 260px;
+  height: 500px;
+  background-color: hsl(179deg, 100%, 13%);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 2rem;
+}
+.container-luxury img {
+  width: 64px;
+  height: 40px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.container-luxury h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  margin-left: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.container-luxury p {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.7rem;
+  width: 228px;
+  margin-left: 1rem;
+  color: white;
+}
+.container-luxury a {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(179deg, 100%, 13%);
+  background-color: white;
+  margin-left: 1rem;
+  margin-top: 7rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .container-sedans {
+    margin-left: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+  }
+  .container-luxury {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .container-sedans {
+    height: 420px;
+  }
+  .container-sedans a {
+    margin-top: 2rem;
+  }
+  .container-suvs {
+    height: 420px;
+  }
+  .container-suvs a {
+    margin-top: 2rem;
+  }
+  .container-luxury {
+    height: 420px;
+  }
+  .container-luxury a {
+    margin-top: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
